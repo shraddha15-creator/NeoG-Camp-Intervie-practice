@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    display: block;
+    text-align: center;
+    margin: 2rem 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --primary-color: red;
+    --secondary-color: blue;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+button{
+    width: 20%;
+    padding:1rem;
+    color: aliceblue;
+    font-size:1rem;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+}
